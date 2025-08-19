@@ -20,7 +20,7 @@ public class LiteraluraApplication implements CommandLineRunner {
 
     private ConsumoAPI consumoAPI = new ConsumoAPI();
     private ConvierteDatos conversor = new ConvierteDatos();
-    private final String URL_BASE = "https://gutendex.com/books/?search=";
+    private final String URL_BASE = "https://gutendex.com/APY_KEY/?search=";
 
     @Autowired
     private LibroRepositorio libroRepositorio;
